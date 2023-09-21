@@ -1,0 +1,24 @@
+# This file predefines a few models that the user may want to install.
+sd-1/main/photon-v1:
+   path: https://civitai.com/api/download/models/90072?type=Model&format=SafeTensor&size=pruned&fp=fp16
+   recommended: True
+   default: True
+
+sd-1/main/realistic-vision-v5.1-inpainting:
+   path: https://civitai.com/api/download/models/130090?type=Model&format=SafeTensor&size=full&fp=fp16
+   recommended: False
+
+sd-1/lora/add-more-details:
+   path: https://civitai.com/api/download/models/87153
+   recommended: True
+sd-1/lora/detail-tweaker:
+   path: https://civitai.com/api/download/models/62833
+   recommended: True
+
+sd-1/controlnet/canny:
+   repo_id: lllyasviel/control_v11p_sd15_canny
+   recommended: True
+
+sd-1/embedding/EasyNegative:
+   path: https://huggingface.co/embed/EasyNegative/resolve/main/EasyNegative.safetensors
+   recommended: True
