@@ -1,5 +1,5 @@
 # This file predefines a few models that the user may want to install.
-sd-1/main/photon-v1:
+sd-1/main/Deliberate v3:
    path: https://civitai.com/api/download/models/156110?type=Model&format=SafeTensor&size=full&fp=fp16
    recommended: True
    default: True
